@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Delicious Pizza</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+		<div class="container">
+			<h1>Delicious Pizza</h1>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+    <section class="menu" id="menu">
+	<h2>Our Menu</h2>
+	<div class="container">
+		<div class="item">
+			<img src="Chicken Pizza.jpg" alt="Pizza 1">
+			<h3>Chicken Pizza</h3>
+			<p>A classic pizza topped with pepperoni and mozzarella cheese.</p>
+			<span class="price">₹249</span>
+			<div class="customize">
+				<h4>Customize your pizza:</h4>
+				<label for="pizza-size">Size:</label>
+				<select name="pizza-size" id="pizza-size">
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</select>
+				<label for="pizza-toppings">Toppings:</label>
+				<div class="toppings">
+					<label><input type="checkbox" name="topping" value="pepperoni">Pepperoni</label>
+					<label><input type="checkbox" name="topping" value="mushrooms">Mushrooms</label>
+					<label><input type="checkbox" name="topping" value="onions">Onions</label>
+					<label><input type="checkbox" name="topping" value="sausage">Sausage</label>
+					<label><input type="checkbox" name="topping" value="BBQ sauce">BBQ sauce</label>
+					<label><input type="checkbox" name="topping" value="extra-cheese">Extra cheese</label>
+				</div>
+				<button class="add-to-cart">Add to cart</button>
+			</div>
+		</div>
+		<div class="item">
+			<img src="paneer-pizza.jpg" alt="Pizza 2">
+			<h3>Paneer Pizza</h3>
+			<p>A pizza topped with ham, pineapple, and mozzarella cheese.</p>
+			<span class="price">₹199</span>
+			<div class="customize">
+				<h4>Customize your pizza:</h4>
+				<label for="pizza-size">Size:</label>
+				<select name="pizza-size" id="pizza-size">
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</select>
+				<label for="pizza-toppings">Toppings:</label>
+				<div class="toppings">
+					<label><input type="checkbox" name="topping" value="corn">Corn</label>
+					<label><input type="checkbox" name="topping" value="pineapple">Pineapple</label>
+					<label><input type="checkbox" name="topping" value="Nuts">Nuts</label>
+					<label><input type="checkbox" name="topping" value="extra-cheese">Extra cheese</label>
+				</div>
+				<button class="add-to-cart">Add to cart</button>
+			</div>
+		</div>
+	</div>
+</section>
+</body>
+<footer>
+	<div class="container">
+		<div class="footer-content">
+			<div class="logo">
+				<img src="logo.jpg" alt="Pizza Time">
+				<h1>Taste the PIZZA</h1>
+			</div>
+			<p>123 Main Street</p>
+			<p>Anytown, IND 12345</p>
+			<p>Phone: 123-456-7890</p>
+			<p>Email: info@pizzatime.com</p>
+		</div>
+		<div class="footer-social">
+			<ul>
+				<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
